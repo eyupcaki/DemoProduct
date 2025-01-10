@@ -1,6 +1,6 @@
 ﻿namespace DemoProduct.CQRSDesignPattern.Queries.CategoryQueries
 {
-    public class GetCategoryByIdQueries
+    public class GetCategoryByIdQuery
     {
        public int CategoryId { get; set; }
     }

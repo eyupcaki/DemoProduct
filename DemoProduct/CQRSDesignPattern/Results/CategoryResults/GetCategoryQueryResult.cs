@@ -1,6 +1,6 @@
-﻿namespace DemoProduct.CQRSDesignPattern.Results
+﻿namespace DemoProduct.CQRSDesignPattern.Results.CategoryResults
 {
-    public class GetCategoryByIdQueryResult
+    public class GetCategoryQueryResult
     {
         public int CategoryId { get; set; }
         public string CategoryName { get; set; }

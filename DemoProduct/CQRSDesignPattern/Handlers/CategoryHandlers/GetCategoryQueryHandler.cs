@@ -1,13 +1,13 @@
 ﻿using DemoProduct.Context;
-using DemoProduct.CQRSDesignPattern.Results;
+using DemoProduct.CQRSDesignPattern.Results.CategoryResults;
 
 namespace DemoProduct.CQRSDesignPattern.Handlers.CategoryHandlers
 {
-    public class GetCategoryQueryCommandHandler
+    public class GetCategoryQueryHandler
     {
         private readonly CQRSContext _context;
 
-        public GetCategoryQueryCommandHandler(CQRSContext context)
+        public GetCategoryQueryHandler(CQRSContext context)
         {
             _context = context;
         }
